@@ -1,0 +1,15 @@
+# Rust build artifacts
+/target
+**/target
+# NOTE: Cargo.lock IS committed — deterministic, reproducible builds are a
+# core goal of this project.
+
+# Downloaded raw sources: publisher PDFs (copyrighted) and the 168 MB SI archive.
+# Reproducible — see docs/REFERENCE_SET.md for what to download and where.
+/data/raw/
+
+# Scratch / temp
+*.tmp
+_smoke/
+*_pred.csv
+*.jsonl

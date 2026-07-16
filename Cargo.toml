@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = ["crates/rank-eval", "crates/scan", "crates/qc-core"]
+# cint-sys links libcint (Linux .so) -> builds only in WSL, excluded from the
+# Windows-native workspace build.
+exclude = ["crates/cint-sys"]
+
+# Derin-Mavi TADF Tarama Motoru — Rust workspace.
+# M0: rank-eval (doğrulama harness'ı, std-only, deterministik).
+# Sonraki: scan, pareto, filter, pyscf-bridge (Secenek A), core (Secenek B).

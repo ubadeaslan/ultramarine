@@ -1,0 +1,28 @@
+exp_rank,name,key,bucket,tddft_outlier,notes
+1,MCz-XT,01_mcz-xt,D-A,N,
+2,TMCz-BO,02_tmcz-bo,D-A,N,"boron-oxygen acceptor; classify carefully (possible MR character) - verify"
+3,FAc-XT,03_fac-xt,D-A,N,
+4,PTZ-DBTO2,04_ptz-dbto2,D-A,N,"phenothiazine-dibenzothiophene-dioxide"
+5,ACRXTN,05_acrxtn,D-A,N,
+6,PHOX-Mepi,06_phox-mepi,D-A,N,"PHOX-Me(pi) in source"
+7,PXZ-Mes3B,07_pxz-mes3b,D-A,N,"trimesitylborane acceptor (D-A, not MR)"
+8,TPA-PH2CN,08_tpa-ph2cn,D-A,Y,"consistent TDDFT outlier; SCS-ADC(2)/CC2 also overestimate"
+9,oTE-DRZ,09_ote-drz,D-A,Y,"consistent TDDFT outlier"
+10,DACT-II,10_dact-ii,D-A,N,
+11,XAc-XT,11_xac-xt,D-A,N,
+12,5Cz-TRZ,12_5cz-trz,D-A,N,
+13,2DAC-MES3B,13_2dac-mes3b,D-A,N,"trimesitylborane acceptor"
+14,MFAc-OPS,14_mfac-ops,D-A,N,
+15,MFAc-SPS,15_mfac-sps,D-A,N,
+16,p-AC-DBNA,16_p-ac-dbna,D-A,N,"DBNA unit; verify D-A vs MR"
+17,3ACR-TRZ,17_3acr-trz,D-A,N,
+18,m'-AC-DBNA,18_mprime-ac-dbna,D-A,N,"DBNA unit; verify D-A vs MR"
+19,TPA-cNDI,19_tpa-cndistar,D-A,N,"WFT (ADC2/CC2) large deviation"
+20,4CzIPN,20_4czipn,D-A,N,"overlaps seed set EM001"
+21,3DPA3CN,21_3dpa3cn,D-A,Y,"consistent TDDFT outlier; elevated D1 diagnostic"
+22,5CzBN,22_5czbn,D-A,N,
+23,p-2Cz2BMe,23_p-2cz2bme,D-A,Y,"flagged outlier (solvation-model inconsistency)"
+24,ACRFLCN,24_acrflcn,D-A,N,
+25,Spiro-CN,25_spiro-cn,D-A,N,
+26,DABNA-2,26_dabna-2,MR-TADF,Y,"MR-TADF; multireference char -> standard TDDFT fails. seed EM009"
+27,DABNA-1,27_dabna-1,MR-TADF,Y,"MR-TADF; multireference char -> standard TDDFT fails. seed EM008"

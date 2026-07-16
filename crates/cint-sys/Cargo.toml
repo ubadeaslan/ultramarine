@@ -1,0 +1,13 @@
+[package]
+name = "cint-sys"
+version = "0.1.0"
+edition = "2021"
+description = "Rust FFI to libcint (Gaussian integrals) — WSL/Linux only"
+
+[[bin]]
+name = "cint-sys"
+path = "src/main.rs"
+
+[dependencies]
+qc-core = { path = "../qc-core" }
+rayon = "1"

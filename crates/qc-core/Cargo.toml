@@ -1,0 +1,14 @@
+[package]
+name = "qc-core"
+version = "0.1.0"
+edition = "2021"
+description = "Owned quantum-chemistry core (Seçenek B) — Stage 0: RHF/STO-3G spike"
+
+[[bin]]
+name = "qc-core"
+path = "src/main.rs"
+
+# Stage-0 spike is std-only & pure Rust (no C, runs on Windows natively):
+# from-scratch s-Gaussian integrals + Jacobi eigensolver + RHF SCF.
+# Production path: faer (linear algebra) + libcint FFI (integrals) + libxc FFI.
+[dependencies]

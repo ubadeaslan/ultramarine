@@ -1,0 +1,12 @@
+[package]
+name = "scan"
+version = "0.1.0"
+edition = "2021"
+description = "Rust orchestration: batch-runs the PySCF kernel over geometries (Seçenek A)"
+
+[[bin]]
+name = "scan"
+path = "src/main.rs"
+
+# std-only: parallelism via std::thread, minimal JSON extraction. Deterministic.
+[dependencies]

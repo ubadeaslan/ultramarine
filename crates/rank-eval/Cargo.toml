@@ -1,0 +1,12 @@
+[package]
+name = "rank-eval"
+version = "0.1.0"
+edition = "2021"
+description = "M0 ranking-validation harness for the deep-blue TADF screening engine"
+
+[[bin]]
+name = "rank-eval"
+path = "src/main.rs"
+
+# std-only by design: deterministic, bit-reproducible, no network at build time.
+[dependencies]
